@@ -134,7 +134,7 @@ if __name__ == "__main__":
         print("Fine-tuning não foi concluído com sucesso.")
         exit()
 
-    # 5- Usando o modelo ajustado!
+    #Testa fine tuned
     """
     test_prompt = "Quero saber sobre as características do produto X."
     usa_finetuning(fine_tuned_model_id, test_prompt)
