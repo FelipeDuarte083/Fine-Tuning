@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 # 1. Carregar variáveis de ambiente
-load_dotenv()
+#load_dotenv()
 
 # É mais seguro usar variáveis de ambiente em produção/deploy
 openai.api_key = os.getenv("OPENAI_API_KEY")
